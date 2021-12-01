@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>MovieFlix</title>
+    <link rel="icon" type="image/x-icon" href="images/icon.ico">  
+    <link rel="stylesheet" href="css/Signin_style.css">  
+    
+    </head>
+    <body style="background-color:rgb(48, 165, 180)">
+        
+                <div class="box"><h1>Form</h1>
+                    <h2 id="head"><u>Show Time</u></h2>
+                    <hr><br>
+                    <form>
+                        <label class="font">Name :</label>
+                        <input class="up"  id="name" type="text"onblur="getVal()">
+                        <br>
+                        <label class="font">Age :</label>
+                        <input class="up" id="age" type="number" min="15" max="50" onblur="getVal()">
+                        <br>
+                        <label class="font" >Register no. :</label>
+                        <input class="up"id="reg" type="text" onblur="getVal()">
+                        <br>
+                        <label class="font" >Password</label>
+                        <input class="up" id="pass" type="password" onblur="getVal()" >
+                        <br>
+                        <label class="font" >Phone no. :</label>
+                        <input class="up"id="phone" type="tel" onblur="getVal()">
+                        <br>
+                        <label class="font" >E-mail :</label>
+                        <input class="up"id="email" type="email" onblur="getVal()" >
+                        <br><br><br>
+                        <input class="up" id="sub" type="button" value="Check">
+                    </form>
+                </div>
+                <script rel="javascript" src="JS/javaform.js" ></script>
+    </body>
+    
+</html>
